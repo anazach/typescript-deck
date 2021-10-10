@@ -53,8 +53,8 @@ let btn = document.querySelector('button')
 btn.addEventListener('click', () => {
     if (deck.length) {
         updateUI()
-        document.querySelector('.counter').innerHTML = `${deck.length} / 52`
+        document.querySelector('.counter').innerHTML = `${deck.length}`
     } else {
-        alert('No more cards!')
+          alert('What was the first card?')
     }
 })

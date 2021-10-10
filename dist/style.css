@@ -12,6 +12,26 @@ body {
   font-size: 1.3em;
 }
 
+
+button, .newcard-btn {
+  padding: 1.4em 1.2em 1.4em 1.2em;
+  color: rgb(207, 207, 207);
+  background-color: #8b0000;
+  border: none;
+  border-radius: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  font-weight: 500;
+  margin-bottom: 20vh;
+}
+
+.counter, .text {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 4vh;
+    color: white;
+}
+
 body main {
   -webkit-box-flex: 1;
       -ms-flex: 1;
